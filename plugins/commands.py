@@ -13,17 +13,17 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** Ben Hawli Yazı Tipi Botuyum**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`Hawli yazı tipleri edinmenize yardımcı olabilirim.  Bana biraz metin gönder ve sihri gör.`
 
-**👲 Maintained By:** {owner.mention(style='md')}
+**👲 Bakımı Yapan:** {owner.mention(style='md')}
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/emektar_reis")
         ]
     ]
     await m.reply_text(
