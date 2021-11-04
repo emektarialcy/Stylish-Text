@@ -17,13 +17,13 @@ async def start(c, m):
 
 `Hawli yazı tipleri edinmenize yardımcı olabilirim.  Bana biraz metin gönder ve sihri gör.`
 
-**👲 Bakımı Yapan:** {owner.mention(style='md')}
+**👲 Bakım:** {owner.mention(style='md')}
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/emektar_reis")
+            InlineKeyboardButton('Bot Owner / İsteklerini Yaz 👨‍✈️', url=f"https://t.me/emektar_reis")
         ]
     ]
     await m.reply_text(
